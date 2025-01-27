@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Function</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
@@ -38,7 +38,7 @@
     $b = 20;
     ?>
 
-    <section>
+    <section class="mt-20 flex flex-col gap-4 justify-center items-center ">
         <h1 class="text-blue-500 text-4xl">Calculator</h1>
         <div>Addition (10 + 20): <?php echo calculate($a, $b, '+'); ?></div>
         <div>Subtraction (10 - 20): <?php echo calculate($a, $b, '-'); ?></div>
